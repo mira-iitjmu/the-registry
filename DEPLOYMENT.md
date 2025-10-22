@@ -1,34 +1,39 @@
 # Deployment Guide
 
-This guide explains how to deploy the MIRA Resource Catalog website to GitHub Pages.
+This guide explains how to deploy the MIRA Resource Catalog website to GitHub Pages using Quarto's built-in publishing command.
 
-## 🚀 Automatic Deployment (Recommended)
+## 🚀 Simple Deployment with Quarto CLI
 
-The website is automatically deployed to GitHub Pages whenever changes are pushed to the `main` branch.
+The website can be deployed directly using Quarto's built-in `publish` command.
 
 ### How it works:
 
-1. **GitHub Actions**: A workflow (`.github/workflows/publish.yml`) automatically builds and deploys the site
-2. **Quarto Rendering**: The workflow uses Quarto to render the website
-3. **GitHub Pages**: The rendered site is automatically published to GitHub Pages
+1. **Quarto Publish**: Uses `quarto publish gh-pages` to build and deploy
+2. **Automatic Setup**: Creates and manages the `gh-pages` branch automatically
+3. **GitHub Pages**: Publishes directly to GitHub Pages
 
 ### Steps to deploy:
 
-1. **Push changes** to the `main` branch:
+1. **Make your changes** to the website files
+2. **Commit your changes**:
    ```bash
    git add .
    git commit -m "Your commit message"
    git push origin main
    ```
 
-2. **Monitor deployment**:
-   - Go to the "Actions" tab in your GitHub repository
-   - Watch the "Publish Quarto Website" workflow run
+3. **Publish to GitHub Pages**:
+   ```bash
+   quarto publish gh-pages
+   ```
+
+4. **Access your site**:
    - The site will be available at `https://mira-iitjmu.github.io/the-registry/`
+   - GitHub Pages deployments take a few minutes to become visible
 
-## 🔧 Manual Deployment
+## 🔧 Manual Build and Preview
 
-If you need to deploy manually:
+For local development and testing:
 
 ### Local Build:
 
@@ -40,11 +45,19 @@ If you need to deploy manually:
 quarto render
 ```
 
+### Local Preview:
+
+```bash
+# Preview the website locally
+quarto preview
+```
+
 ### GitHub Pages Setup:
 
 1. Go to repository **Settings** → **Pages**
-2. Under **Source**, select **GitHub Actions**
-3. The workflow will automatically deploy when triggered
+2. Under **Source**, select **Deploy from a branch**
+3. Select **gh-pages** branch and **/ (root)** folder
+4. Save the settings
 
 ## 🛠️ Troubleshooting
 
@@ -94,14 +107,14 @@ The site is configured in `_quarto.yml`:
 - **Theme**: Cosmo (Bootswatch)
 - **GitHub Integration**: Enabled
 
-## 🔄 Workflow Details
+## 🔄 Deployment Process
 
-The deployment workflow (`.github/workflows/publish.yml`) does the following:
+The `quarto publish gh-pages` command does the following:
 
-1. **Checkout**: Gets the latest code
-2. **Setup Quarto**: Installs Quarto CLI
-3. **Render**: Builds the website
-4. **Deploy**: Publishes to GitHub Pages
+1. **Render**: Builds the website using Quarto
+2. **Create Branch**: Creates or updates the `gh-pages` branch
+3. **Deploy**: Pushes the built site to GitHub Pages
+4. **Configure**: Sets up the necessary GitHub Pages configuration
 
 ## 📞 Support
 
