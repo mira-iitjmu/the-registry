@@ -2,6 +2,11 @@ project:
   type: website
   output-dir: _site
 
+# GitHub Pages configuration
+github:
+  repo: mira-iitjmu/the-registry
+  branch: main
+
 website:
   title: "MIRA Resource Catalog"
   sidebar:
