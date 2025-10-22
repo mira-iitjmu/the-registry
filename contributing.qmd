@@ -19,11 +19,11 @@ To contribute a new dataset:
    - **Benchmarks** (`datasets/benchmarks/`) - For evaluation datasets
    - **Specialized** (`datasets/specialized/`) - For domain-specific datasets
 
-2. **Select the subcategory** within your chosen category:
-   - For Indic: `translation/`, `rag/`, `alignment/`, or `paraphrase/`
-   - For Web: `general/`, `multilingual/`, or `domain-specific/`
-   - For Benchmarks: `language-understanding/`, `reasoning/`, or `multilingual/`
-   - For Specialized: `code/`, `scientific/`, or `domain-specific/`
+2. **Create your dataset file** directly in the appropriate category directory:
+   - For Indic: Create `.qmd` files directly in `datasets/indic/`
+   - For Web: Create `.qmd` files directly in `datasets/web/`
+   - For Benchmarks: Create `.qmd` files directly in `datasets/benchmarks/`
+   - For Specialized: Create `.qmd` files directly in `datasets/specialized/`
 
 3. **Create a `.qmd` file** in the appropriate subcategory directory with the following structure:
 
@@ -62,10 +62,10 @@ To contribute a new architecture:
    - **Multimodal** (`architectures/multimodal/`) - For multimodal architectures
    - **Specialized** (`architectures/specialized/`) - For specialized architectures
 
-2. **Select the subcategory**:
-   - For Language Models: `encoder-only/`, `decoder-only/`, or `encoder-decoder/`
-   - For Multimodal: `vision-language/`, `audio-visual/`, or `cross-modal/`
-   - For Specialized: `rag/`, `code-generation/`, or `domain-specific/`
+2. **Create your architecture file** directly in the appropriate category directory:
+   - For Language Models: Create `.qmd` files directly in `architectures/language-models/`
+   - For Multimodal: Create `.qmd` files directly in `architectures/multimodal/`
+   - For Specialized: Create `.qmd` files directly in `architectures/specialized/`
 
 3. **Create a `.qmd` file** with similar structure to datasets.
 
@@ -138,21 +138,22 @@ For blog posts, please ensure:
 ```
 datasets/
 ├── indic/
-│   ├── translation/
-│   │   └── your-dataset.qmd
-│   └── rag/
-│       └── your-rag-dataset.qmd
-└── web/
-    └── general/
-        └── your-web-dataset.qmd
+│   ├── your-indic-dataset.qmd
+│   └── another-indic-dataset.qmd
+├── web/
+│   └── your-web-dataset.qmd
+├── benchmarks/
+│   └── your-benchmark-dataset.qmd
+└── specialized/
+    └── your-specialized-dataset.qmd
 
 architectures/
 ├── language-models/
-│   └── encoder-only/
-│       └── your-architecture.qmd
-└── multimodal/
-    └── vision-language/
-        └── your-vision-model.qmd
+│   └── your-language-model.qmd
+├── multimodal/
+│   └── your-multimodal-model.qmd
+└── specialized/
+    └── your-specialized-architecture.qmd
 
 posts/
 └── your-blog-post/
