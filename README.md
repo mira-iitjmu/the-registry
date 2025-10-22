@@ -1,28 +1,53 @@
-# MIRA Data Catalog
+# MIRA Resource Catalog
 
-A comprehensive catalog of AI/ML datasets and resources curated by the MIRA Research Team at IIT Jammu.
+A comprehensive catalog of AI/ML datasets, architectures, and resources curated by the MIRA Research Team at IIT Jammu.
 
-## 🚀 Features
+[![Live Website](https://img.shields.io/badge/Website-Live-brightgreen)](https://mira-iitjmu.github.io/the-registry/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/mira-iitjmu/the-registry)
+[![Quarto](https://img.shields.io/badge/Built%20with-Quarto-9cf)](https://quarto.org/)
+
+## 🌟 Features
 
 - **📊 Dataset Catalog**: Curated collection of datasets for AI/ML research
-- **🌐 Interactive Website**: Built with Quarto and Bootswatch LUX theme
+- **🏗️ Architecture Library**: Comprehensive model architecture documentation
+- **🌐 Interactive Website**: Built with Quarto and Bootswatch Cosmo theme
 - **🔍 Dataset Previews**: Integrated Hugging Face dataset viewer
 - **📝 Blog System**: Support for Jupyter notebook blog posts
-- **🏗️ Architecture Categories**: Organized by model types and applications
+- **🚀 Easy Deployment**: One-command publishing to GitHub Pages
+- **📱 Responsive Design**: Works seamlessly on all devices
 
 ## 📁 Project Structure
 
 ```
-├── datasets/           # Dataset catalog
-│   ├── indic/         # Indic language datasets
-│   ├── benchmarks/    # Benchmark datasets
-│   ├── specialized/   # Specialized domain datasets
-│   └── web/          # Web-crawled datasets
-├── architectures/     # Model architecture categories
-├── posts/            # Blog posts and notebooks
-├── assets/           # Images and static files
-└── _quarto.yml       # Quarto configuration
+├── datasets/                    # Dataset catalog
+│   ├── indic/                  # Indic language datasets (7 datasets)
+│   ├── benchmarks/             # Benchmark datasets
+│   ├── specialized/            # Specialized domain datasets
+│   └── web/                    # Web-crawled datasets
+├── architectures/              # Model architecture categories
+│   ├── language-models/        # Language model architectures
+│   ├── multimodal/             # Multimodal architectures
+│   └── specialized/            # Specialized architectures
+├── posts/                      # Blog posts and notebooks
+├── assets/                     # Images and static files
+├── scripts/                    # Build and development scripts
+├── _quarto.yml                 # Quarto configuration
+├── DEPLOYMENT.md               # Deployment documentation
+└── README.md                   # This file
 ```
+
+## 🎯 Current Content
+
+### Datasets (7+ datasets)
+- **Indic Languages**: AI4Bharat datasets for Indian languages
+- **Benchmarks**: Standard evaluation datasets
+- **Specialized**: Domain-specific datasets
+- **Web**: Large-scale web-crawled datasets
+
+### Architectures
+- **Language Models**: Encoder-only, decoder-only, encoder-decoder
+- **Multimodal**: Vision-language, audio-visual, cross-modal
+- **Specialized**: RAG, domain-specific applications
 
 ## 🛠️ Setup and Development
 

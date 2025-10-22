@@ -1,5 +1,5 @@
 ---
-title: "Architecture Categories"
+title: "Architecture Registry"
 description: "Overview of model architectures organized by category including language models, multimodal models, and specialized architectures"
 listing:
   contents: "./*/index.qmd"

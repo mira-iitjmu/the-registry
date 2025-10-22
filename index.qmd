@@ -1,13 +1,11 @@
 ---
-title: "Datasets"
+title: "Registries"
 listing:
-  contents: datasets
+  contents: "./*/index.qmd"
+  sort: title
   type: grid
-  fields: [title, categories, description]
-  sort: "title"
-  sort-ui: true
-  filter-ui: true
-  page-size: 24
+  fields: [title, description, date]
+  page-size: 20
 ---
 
 Browse all datasets. Use the sidebar to jump between pages, or filter the grid above.

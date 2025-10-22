@@ -13,8 +13,6 @@ website:
     style: docked
     search: true
     contents:
-      - text: "All Datasets"
-        href: datasets/index.qmd
       - section: "Datasets"
         contents:
           - text: "Indic Languages"

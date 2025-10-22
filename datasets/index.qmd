@@ -1,5 +1,5 @@
 ---
-title: "All Datasets"
+title: "Dataset Registry"
 description: "Comprehensive collection of datasets for AI/ML research and development"
 listing:
   contents: "./*/index.qmd"
