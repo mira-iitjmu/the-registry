@@ -1,0 +1,6 @@
+---
+title: "ai4bharat/IndicParaphrase"
+categories: [language:11 Indic languages, task:Paraphrase generation and detection dataset for Indic languages]
+thumbnail: /assets/thumbs/placeholder.png
+---
+

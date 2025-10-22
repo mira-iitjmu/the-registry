@@ -1,0 +1,24 @@
+---
+title: "MIRA Data Catalog Blog"
+description: "Insights, research findings, and best practices in AI/ML datasets"
+listing:
+  contents: posts
+  sort: date desc
+  type: default
+  fields: [title, description, date, author]
+  page-size: 10
+---
+
+Welcome to the MIRA Data Catalog & Resources blog! Here we share insights, research findings, and best practices related to AI/ML datasets, evaluation methodologies, and ethical considerations in data science.
+
+## Topics We Cover
+
+- **Dataset Creation**: Best practices for data collection and annotation
+- **Evaluation Methods**: Benchmarking and assessment techniques  
+- **Ethical AI**: Responsible data practices and bias mitigation
+- **Multilingual NLP**: Challenges and solutions for diverse languages
+- **Research Insights**: Latest findings from the AI/ML community
+
+## Stay Updated
+
+Follow our blog for the latest insights on dataset development, evaluation methodologies, and ethical considerations in AI research. We regularly publish articles from our research team and guest contributors.

@@ -1,0 +1,10 @@
+---
+title: "Specialized Architectures"
+description: "Specialized model architectures for specific domains including RAG, code generation, and domain-specific applications"
+listing:
+  contents: .
+  sort: title
+  type: default
+  fields: [title, description, date]
+  page-size: 20
+---

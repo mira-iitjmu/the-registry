@@ -1,0 +1,59 @@
+---
+title: "ai4bharat/indic-align"
+categories: [language:11+ Indic languages, task:Instruction-following / response alignment dataset for Indic languages]
+thumbnail: /assets/thumbs/placeholder.png
+---
+
+## Overview
+
+The **ai4bharat/indic-align** dataset represents a comprehensive collection of instruction-following and response alignment data specifically designed for Indic languages. This dataset addresses the critical need for high-quality training data that can help language models better understand and respond to instructions across multiple Indian languages.
+
+### Dataset Characteristics
+
+This dataset encompasses **11+ Indic languages**, providing a rich multilingual resource for researchers and practitioners working on instruction-following tasks in the Indian linguistic context. The primary focus is on creating well-aligned instruction-response pairs that can improve the performance of language models when handling queries and commands in various Indic languages.
+
+### Key Features
+
+- **Multilingual Coverage**: Supports 11+ Indic languages, ensuring broad linguistic representation
+- **Instruction-Following Focus**: Specifically designed for training models to follow instructions accurately
+- **Response Alignment**: Contains carefully curated instruction-response pairs for optimal model training
+- **Research-Backed**: Developed by AI4Bharat with accompanying research paper
+
+### Access and Usage
+
+The dataset is readily available through [Hugging Face](https://huggingface.co/datasets/ai4bharat/indic-align), making it easily accessible to the research community. For detailed technical information and methodology, refer to the accompanying research paper: [AI4Bharat Indic Align](https://arxiv.org/abs/2403.06350).
+
+This dataset is particularly valuable for:
+
+- Training instruction-following models for Indic languages
+- Improving response quality and alignment in multilingual settings
+- Advancing research in Indian language processing
+- Building more inclusive and linguistically diverse AI systems
+
+### Preview Data
+
+Explore the dataset interactively using the official Hugging Face dataset viewer:
+
+**🔗 [View Dataset on Hugging Face](https://huggingface.co/datasets/ai4bharat/indic-align)**
+
+**Quick Preview**: The dataset contains instruction-response pairs in a conversational format. Each record includes an `id`, `interactions` (list of instruction-response pairs), and `num_turns` (conversation length).
+
+**Dataset Structure**: Each record contains:
+
+- `id`: Unique identifier for the conversation
+- `interactions`: List of instruction-response pairs
+- `num_turns`: Number of conversation turns
+
+**Available Configurations**: The dataset includes multiple configurations:
+
+- **Anudesh**: Instruction-following conversations
+- **Dolly_T**: Translated Dolly dataset
+- **OpenAssistant_T**: Translated OpenAssistant conversations
+- **WikiHow**: Translated WikiHow articles
+- **IndoWordNet**: WordNet translations
+- **Wiki_Conv**: Wikipedia conversation data
+- **Wiki_Chat**: Wikipedia chat data
+- **HHRLHF_T**: Human feedback data
+- **Toxic_Matrix**: Toxic content alignment data
+
+For interactive exploration, visit the [full dataset page on Hugging Face](https://huggingface.co/datasets/ai4bharat/indic-align).

@@ -1,0 +1,10 @@
+---
+title: "Benchmark Datasets"
+description: "Standardized benchmark datasets for evaluating model performance across various NLP tasks"
+listing:
+  contents: .
+  sort: title
+  type: default
+  fields: [title, description, date]
+  page-size: 20
+---

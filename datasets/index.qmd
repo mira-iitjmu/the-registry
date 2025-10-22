@@ -1,0 +1,10 @@
+---
+title: "All Datasets"
+description: "Comprehensive collection of datasets for AI/ML research and development"
+listing:
+  contents: "./*/index.qmd"
+  sort: title
+  type: grid
+  fields: [title, description, date]
+  page-size: 20
+---

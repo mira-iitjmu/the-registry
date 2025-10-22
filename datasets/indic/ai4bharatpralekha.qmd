@@ -1,0 +1,6 @@
+---
+title: "ai4bharat/Pralekha"
+categories: [language:Multiple Indic languages, task:Document alignment and summarization benchmark for Indic texts]
+thumbnail: /assets/thumbs/placeholder.png
+---
+

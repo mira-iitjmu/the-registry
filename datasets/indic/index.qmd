@@ -1,0 +1,10 @@
+---
+title: "Indic Language Datasets"
+description: "Datasets for Indian languages including translation, RAG, alignment, and paraphrase tasks"
+listing:
+  contents: .
+  sort: title
+  type: grid
+  fields: [title, description, date]
+  page-size: 20
+---

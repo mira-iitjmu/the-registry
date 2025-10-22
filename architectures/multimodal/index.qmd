@@ -1,0 +1,10 @@
+---
+title: "Multimodal Models"
+description: "Architectures for processing multiple modalities including vision-language, audio-visual, and cross-modal models"
+listing:
+  contents: .
+  sort: title
+  type: default
+  fields: [title, description, date]
+  page-size: 20
+---

@@ -1,0 +1,5 @@
+---
+title: "ai4bharat/sangraha"
+categories: [language:22 Indic languages, task:Large-scale Indic pretraining corpus for LLMs]
+thumbnail: /assets/thumbs/placeholder.png
+---

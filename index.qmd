@@ -1,0 +1,13 @@
+---
+title: "Datasets"
+listing:
+  contents: datasets
+  type: grid
+  fields: [title, categories, description]
+  sort: "title"
+  sort-ui: true
+  filter-ui: true
+  page-size: 24
+---
+
+Browse all datasets. Use the sidebar to jump between pages, or filter the grid above.

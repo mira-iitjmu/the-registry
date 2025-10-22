@@ -1,0 +1,6 @@
+---
+title: "Bharat Parallel Corpus Collection (BPCC)"
+categories: [language:22 Indic + English, task:Indic language corpus for code-mixed speech and text tasks]
+thumbnail: /assets/thumbs/placeholder.png
+---
+

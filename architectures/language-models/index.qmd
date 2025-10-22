@@ -1,0 +1,10 @@
+---
+title: "Language Models"
+description: "Architectures for language modeling including encoder-only, decoder-only, and encoder-decoder models"
+listing:
+  contents: .
+  sort: title
+  type: default
+  fields: [title, description, date]
+  page-size: 20
+---

@@ -1,0 +1,183 @@
+---
+title: "Contributing to MIRA Data Catalog"
+description: "Guidelines for contributing datasets, architectures, and other content to the MIRA Data Catalog"
+---
+
+# Contributing to MIRA Data Catalog
+
+We welcome contributions to the MIRA Data Catalog! This guide will help you understand how to contribute datasets, architectures, and other content to our growing collection.
+
+## How to Contribute
+
+### 1. Dataset Contributions
+
+To contribute a new dataset:
+
+1. **Choose the appropriate category** for your dataset:
+   - **Indic Languages** (`datasets/indic/`) - For Indian language datasets
+   - **Web & Crawled** (`datasets/web/`) - For web-scraped datasets
+   - **Benchmarks** (`datasets/benchmarks/`) - For evaluation datasets
+   - **Specialized** (`datasets/specialized/`) - For domain-specific datasets
+
+2. **Select the subcategory** within your chosen category:
+   - For Indic: `translation/`, `rag/`, `alignment/`, or `paraphrase/`
+   - For Web: `general/`, `multilingual/`, or `domain-specific/`
+   - For Benchmarks: `language-understanding/`, `reasoning/`, or `multilingual/`
+   - For Specialized: `code/`, `scientific/`, or `domain-specific/`
+
+3. **Create a `.qmd` file** in the appropriate subcategory directory with the following structure:
+
+```yaml
+---
+title: "Your Dataset Name"
+description: "Brief description of the dataset"
+date: "YYYY-MM-DD"
+author: "Your Name"
+categories: ["Category1", "Category2"]
+---
+
+# Your Dataset Name
+
+## Overview
+Detailed description of your dataset.
+
+## Key Features
+- Feature 1
+- Feature 2
+- Feature 3
+
+## Usage
+How to use this dataset.
+
+## Citation
+If applicable, include citation information.
+```
+
+### 2. Architecture Contributions
+
+To contribute a new architecture:
+
+1. **Choose the appropriate category**:
+   - **Language Models** (`architectures/language-models/`) - For language model architectures
+   - **Multimodal** (`architectures/multimodal/`) - For multimodal architectures
+   - **Specialized** (`architectures/specialized/`) - For specialized architectures
+
+2. **Select the subcategory**:
+   - For Language Models: `encoder-only/`, `decoder-only/`, or `encoder-decoder/`
+   - For Multimodal: `vision-language/`, `audio-visual/`, or `cross-modal/`
+   - For Specialized: `rag/`, `code-generation/`, or `domain-specific/`
+
+3. **Create a `.qmd` file** with similar structure to datasets.
+
+### 3. Blog Post Contributions
+
+To contribute a blog post:
+
+1. **Create a new directory** in `posts/` with a descriptive name
+2. **Add an `index.qmd` file** with your blog post content
+3. **Include proper YAML frontmatter**:
+
+```yaml
+---
+title: "Your Blog Post Title"
+description: "Brief description of the blog post"
+date: "YYYY-MM-DD"
+author: "Your Name"
+categories: ["Research", "AI/ML"]
+---
+```
+
+## Content Guidelines
+
+### Dataset Documentation
+
+When contributing datasets, please include:
+
+- **Clear description** of what the dataset contains
+- **Size and scale** information
+- **Language(s)** covered
+- **Task(s)** the dataset is designed for
+- **Quality metrics** if available
+- **Usage examples** or code snippets
+- **Citation information** if applicable
+- **License information**
+
+### Architecture Documentation
+
+When contributing architectures, please include:
+
+- **Architecture overview** and key components
+- **Model size** and parameters
+- **Training details** if applicable
+- **Performance metrics** if available
+- **Use cases** and applications
+- **Implementation details**
+- **Citation information**
+
+### Blog Post Guidelines
+
+For blog posts, please ensure:
+
+- **Clear, engaging writing**
+- **Technical accuracy**
+- **Proper citations** and references
+- **Code examples** where relevant
+- **Visual elements** (plots, diagrams) when helpful
+- **Consistent formatting**
+
+## File Organization
+
+### Naming Conventions
+
+- **Dataset files**: Use descriptive names like `dataset-name.qmd`
+- **Architecture files**: Use descriptive names like `architecture-name.qmd`
+- **Blog posts**: Use descriptive directory names like `post-title/`
+
+### Directory Structure
+
+```
+datasets/
+├── indic/
+│   ├── translation/
+│   │   └── your-dataset.qmd
+│   └── rag/
+│       └── your-rag-dataset.qmd
+└── web/
+    └── general/
+        └── your-web-dataset.qmd
+
+architectures/
+├── language-models/
+│   └── encoder-only/
+│       └── your-architecture.qmd
+└── multimodal/
+    └── vision-language/
+        └── your-vision-model.qmd
+
+posts/
+└── your-blog-post/
+    └── index.qmd
+```
+
+## Review Process
+
+1. **Submit your contribution** by creating the appropriate files
+2. **Our team will review** the content for:
+   - Technical accuracy
+   - Completeness of documentation
+   - Adherence to guidelines
+   - Quality and usefulness
+3. **Feedback will be provided** if revisions are needed
+4. **Approved contributions** will be integrated into the catalog
+
+## Questions?
+
+If you have questions about contributing, please:
+
+- **Check existing content** for examples
+- **Review the file structure** to understand organization
+- **Contact the maintainers** if you need clarification
+
+## Thank You!
+
+We appreciate your contributions to the MIRA Data Catalog. Your efforts help build a comprehensive resource for the AI/ML community!

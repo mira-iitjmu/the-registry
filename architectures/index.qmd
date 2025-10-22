@@ -1,0 +1,10 @@
+---
+title: "Architecture Categories"
+description: "Overview of model architectures organized by category including language models, multimodal models, and specialized architectures"
+listing:
+  contents: "./*/index.qmd"
+  sort: title
+  type: grid
+  fields: [title, description, date]
+  page-size: 20
+---

@@ -1,0 +1,6 @@
+---
+title: "ai4bharat/Indic-Rag-Suite"
+categories: [language:11 Indic + English, task:Retrieval-Augmented Generation (RAG) benchmark for Indic languages]
+thumbnail: /assets/thumbs/placeholder.png
+---
+

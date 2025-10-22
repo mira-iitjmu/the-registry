@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "MIRA Resource Catalog"
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - text: "All Datasets"
+        href: datasets/index.qmd
+      - section: "Datasets"
+        contents:
+          - text: "Indic Languages"
+            href: datasets/indic/index.qmd
+          - text: "Web & Crawled"
+            href: datasets/web/index.qmd
+          - text: "Benchmarks"
+            href: datasets/benchmarks/index.qmd
+          - text: "Specialized"
+            href: datasets/specialized/index.qmd
+      - section: "Architectures"
+        contents:
+          - text: "Language Models"
+            href: architectures/language-models/index.qmd
+          - text: "Multimodal"
+            href: architectures/multimodal/index.qmd
+          - text: "Specialized"
+            href: architectures/specialized/index.qmd
+      - text: "Blog"
+        href: blog.qmd
+  navbar:
+    right:
+      - text: "Datasets"
+        href: datasets/index.qmd
+      - text: "Architectures"
+        href: architectures/index.qmd
+      - text: "Blog"
+        href: blog.qmd
+
+format:
+  html:
+    theme: Cosmo
+    toc: false
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false

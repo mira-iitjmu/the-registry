@@ -1,0 +1,5 @@
+---
+title: "ai4bharat/wiki-translate"
+categories: [language:11 Indic + English, task:Machine translation (Wikipedia articles across Indic languages)]
+thumbnail: /assets/thumbs/placeholder.png
+---
