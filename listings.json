@@ -8,18 +8,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/datasets/index.html",
-      "/datasets/benchmarks/index.html",
-      "/datasets/indic/bharat-parallel-corpus-collection-bpcc.html",
-      "/datasets/indic/index.html",
-      "/datasets/specialized/index.html",
-      "/datasets/web/index.html",
-      "/datasets/indic/ai4bharatindic-rag-suite.html",
-      "/datasets/indic/ai4bharatindicparaphrase.html",
-      "/datasets/indic/ai4bharatpralekha.html",
-      "/datasets/indic/ai4bharatindic-align.html",
-      "/datasets/indic/ai4bharatsangraha.html",
-      "/datasets/indic/ai4bharatwiki-translate.html"
+      "/architectures/index.html",
+      "/datasets/index.html"
     ]
   },
   {

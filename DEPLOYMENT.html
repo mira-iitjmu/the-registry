@@ -122,7 +122,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./datasets/index.html" aria-current="page"> 
+    <a class="nav-link" href="./datasets/index.html"> 
 <span class="menu-text">Datasets</span></a>
   </li>  
   <li class="nav-item">
@@ -130,7 +130,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Architectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -164,12 +164,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./datasets/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">All Datasets</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
@@ -254,52 +248,79 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="deployment-guide" class="level1">
 <h1>Deployment Guide</h1>
-<p>This guide explains how to deploy the MIRA Resource Catalog website to GitHub Pages.</p>
-<section id="automatic-deployment-recommended" class="level2">
-<h2 class="anchored" data-anchor-id="automatic-deployment-recommended">🚀 Automatic Deployment (Recommended)</h2>
-<p>The website is automatically deployed to GitHub Pages whenever changes are pushed to the <code>main</code> branch.</p>
-<section id="how-it-works" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-works">How it works:</h3>
-<ol type="1">
-<li><strong>GitHub Actions</strong>: A workflow (<code>.github/workflows/publish.yml</code>) automatically builds and deploys the site</li>
-<li><strong>Quarto Rendering</strong>: The workflow uses Quarto to render the website</li>
-<li><strong>GitHub Pages</strong>: The rendered site is automatically published to GitHub Pages</li>
-</ol>
+<p>This guide explains how to deploy the MIRA Resource Catalog website to GitHub Pages using Quarto’s built-in publishing command.</p>
+<p><a href="https://mira-iitjmu.github.io/the-registry/"><img src="https://img.shields.io/badge/Website-Live-brightgreen.png" class="img-fluid" alt="Live Website"></a> <a href="https://pages.github.com/"><img src="https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-blue.png" class="img-fluid" alt="GitHub Pages"></a></p>
+<section id="quick-deployment" class="level2">
+<h2 class="anchored" data-anchor-id="quick-deployment">🚀 Quick Deployment</h2>
+<p>The website can be deployed with a single command using Quarto’s built-in <code>publish</code> functionality.</p>
+<section id="one-command-deployment" class="level3">
+<h3 class="anchored" data-anchor-id="one-command-deployment">One-Command Deployment:</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>That’s it! The command will: - ✅ Build the website - ✅ Create/update the <code>gh-pages</code> branch - ✅ Deploy to GitHub Pages - ✅ Configure everything automatically</p>
 </section>
-<section id="steps-to-deploy" class="level3">
-<h3 class="anchored" data-anchor-id="steps-to-deploy">Steps to deploy:</h3>
+<section id="complete-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="complete-workflow">Complete Workflow:</h3>
 <ol type="1">
-<li><p><strong>Push changes</strong> to the <code>main</code> branch:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Your commit message"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p><strong>Monitor deployment</strong>:</p>
+<li><p><strong>Make your changes</strong> to the website files</p></li>
+<li><p><strong>Commit your changes</strong>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Your commit message"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Deploy to GitHub Pages</strong>:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Access your site</strong>:</p>
 <ul>
-<li>Go to the “Actions” tab in your GitHub repository</li>
-<li>Watch the “Publish Quarto Website” workflow run</li>
-<li>The site will be available at <code>https://mira-iitjmu.github.io/the-registry/</code></li>
+<li>🌐 <strong>Live URL</strong>: <a href="https://mira-iitjmu.github.io/the-registry/">https://mira-iitjmu.github.io/the-registry/</a></li>
+<li>⏱️ <strong>Deployment time</strong>: Usually 2-3 minutes</li>
+<li>🔄 <strong>Auto-updates</strong>: Every time you run the publish command</li>
 </ul></li>
 </ol>
 </section>
 </section>
-<section id="manual-deployment" class="level2">
-<h2 class="anchored" data-anchor-id="manual-deployment">🔧 Manual Deployment</h2>
-<p>If you need to deploy manually:</p>
-<section id="local-build" class="level3">
-<h3 class="anchored" data-anchor-id="local-build">Local Build:</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the website</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./scripts/build.sh</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Or manually:</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="development-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="development-workflow">🔧 Development Workflow</h2>
+<section id="local-development" class="level3">
+<h3 class="anchored" data-anchor-id="local-development">Local Development:</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview the website locally (recommended for development)</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Build the website for testing</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the build script for automated building</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="ex">./scripts/build.sh</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="github-pages-setup" class="level3">
-<h3 class="anchored" data-anchor-id="github-pages-setup">GitHub Pages Setup:</h3>
+<section id="github-pages-setup-one-time" class="level3">
+<h3 class="anchored" data-anchor-id="github-pages-setup-one-time">GitHub Pages Setup (One-time):</h3>
 <ol type="1">
 <li>Go to repository <strong>Settings</strong> → <strong>Pages</strong></li>
-<li>Under <strong>Source</strong>, select <strong>GitHub Actions</strong></li>
-<li>The workflow will automatically deploy when triggered</li>
+<li>Under <strong>Source</strong>, select <strong>Deploy from a branch</strong></li>
+<li>Select <strong>gh-pages</strong> branch and <strong>/ (root)</strong> folder</li>
+<li>Save the settings</li>
 </ol>
+<p><strong>Note</strong>: This is only needed once. After the initial setup, <code>quarto publish gh-pages</code> handles everything automatically.</p>
+</section>
+</section>
+<section id="deployment-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-checklist">📋 Deployment Checklist</h2>
+<p>Before deploying, ensure:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">All changes are committed to the <code>main</code> branch</label></li>
+<li><label><input type="checkbox">Quarto files (<code>.qmd</code>) have valid syntax</label></li>
+<li><label><input type="checkbox">All referenced files exist and are accessible</label></li>
+<li><label><input type="checkbox">Images and assets are properly linked</label></li>
+<li><label><input type="checkbox">No broken links in the content</label></li>
+</ul>
+<section id="pre-deployment-testing" class="level3">
+<h3 class="anchored" data-anchor-id="pre-deployment-testing">Pre-deployment Testing:</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check Quarto configuration</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> check</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Test local build</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview locally</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 <section id="troubleshooting" class="level2">
@@ -309,34 +330,61 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ol type="1">
 <li><strong>Build Failures</strong>:
 <ul>
-<li>Check the Actions tab for error logs</li>
-<li>Ensure all required files are committed</li>
-<li>Verify Quarto syntax in <code>.qmd</code> files</li>
+<li>Check for syntax errors in <code>.qmd</code> files</li>
+<li>Ensure all referenced files exist</li>
+<li>Verify Quarto configuration in <code>_quarto.yml</code></li>
+<li>Check for missing dependencies</li>
 </ul></li>
 <li><strong>Site Not Updating</strong>:
 <ul>
-<li>Check if GitHub Actions workflow completed successfully</li>
 <li>Verify GitHub Pages settings are correct</li>
-<li>Wait a few minutes for deployment to complete</li>
+<li>Ensure <code>gh-pages</code> branch exists and is up to date</li>
+<li>Wait a few minutes for GitHub Pages to propagate changes</li>
+<li>Clear browser cache and try again</li>
 </ul></li>
 <li><strong>Missing Content</strong>:
 <ul>
 <li>Ensure all files are committed to the repository</li>
 <li>Check that paths in navigation are correct</li>
-<li>Verify file permissions</li>
+<li>Verify file permissions and case sensitivity</li>
+<li>Check for typos in file names and paths</li>
+</ul></li>
+<li><strong>Deployment Issues</strong>:
+<ul>
+<li>Ensure you have push permissions to the repository</li>
+<li>Check if the <code>gh-pages</code> branch exists</li>
+<li>Verify Quarto is properly installed</li>
+<li>Check for network connectivity issues</li>
 </ul></li>
 </ol>
 </section>
 <section id="debug-commands" class="level3">
 <h3 class="anchored" data-anchor-id="debug-commands">Debug Commands:</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Test local build</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render <span class="at">--debug</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview locally</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Check configuration</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> check</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check Quarto installation and configuration</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> check</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Test local build with debug info</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render <span class="at">--debug</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview locally with verbose output</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview <span class="at">--debug</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for broken links</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render <span class="at">--validate-links</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify GitHub Pages branch</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch <span class="at">-a</span> <span class="kw">|</span> <span class="fu">grep</span> gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="getting-help" class="level3">
+<h3 class="anchored" data-anchor-id="getting-help">Getting Help:</h3>
+<p>If you encounter issues:</p>
+<ol type="1">
+<li><strong>Check the logs</strong>: Look for error messages in the terminal output</li>
+<li><strong>Verify setup</strong>: Ensure GitHub Pages is properly configured</li>
+<li><strong>Test locally</strong>: Use <code>quarto preview</code> to test changes before deploying</li>
+<li><strong>Check documentation</strong>: Review <a href="https://quarto.org/">Quarto documentation</a></li>
+<li><strong>Open an issue</strong>: Create an issue in the repository with error details</li>
+</ol>
 </section>
 </section>
 <section id="configuration" class="level2">
@@ -345,39 +393,77 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="github-pages-settings">GitHub Pages Settings:</h3>
 <ul>
 <li><strong>Repository</strong>: <code>mira-iitjmu/the-registry</code></li>
-<li><strong>Branch</strong>: <code>main</code></li>
-<li><strong>Source</strong>: GitHub Actions</li>
+<li><strong>Source Branch</strong>: <code>gh-pages</code> (auto-managed by Quarto)</li>
+<li><strong>Source Folder</strong>: <code>/ (root)</code></li>
 <li><strong>Custom Domain</strong>: (Optional)</li>
 </ul>
 </section>
 <section id="quarto-configuration" class="level3">
 <h3 class="anchored" data-anchor-id="quarto-configuration">Quarto Configuration:</h3>
-<p>The site is configured in <code>_quarto.yml</code>: - <strong>Output Directory</strong>: <code>_site</code> - <strong>Theme</strong>: Cosmo (Bootswatch) - <strong>GitHub Integration</strong>: Enabled</p>
+<p>The site is configured in <code>_quarto.yml</code>: - <strong>Output Directory</strong>: <code>_site</code> - <strong>Theme</strong>: Cosmo (Bootswatch) - <strong>GitHub Integration</strong>: Enabled - <strong>Search</strong>: Enabled - <strong>Navigation</strong>: Docked sidebar</p>
 </section>
 </section>
-<section id="workflow-details" class="level2">
-<h2 class="anchored" data-anchor-id="workflow-details">🔄 Workflow Details</h2>
-<p>The deployment workflow (<code>.github/workflows/publish.yml</code>) does the following:</p>
+<section id="deployment-process" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-process">🔄 Deployment Process</h2>
+<p>The <code>quarto publish gh-pages</code> command automatically:</p>
 <ol type="1">
-<li><strong>Checkout</strong>: Gets the latest code</li>
-<li><strong>Setup Quarto</strong>: Installs Quarto CLI</li>
-<li><strong>Render</strong>: Builds the website</li>
-<li><strong>Deploy</strong>: Publishes to GitHub Pages</li>
+<li><strong>🔨 Render</strong>: Builds the website using Quarto</li>
+<li><strong>🌿 Create Branch</strong>: Creates or updates the <code>gh-pages</code> branch</li>
+<li><strong>🚀 Deploy</strong>: Pushes the built site to GitHub Pages</li>
+<li><strong>⚙️ Configure</strong>: Sets up the necessary GitHub Pages configuration</li>
+<li><strong>✅ Verify</strong>: Ensures the deployment is successful</li>
 </ol>
 </section>
-<section id="support" class="level2">
-<h2 class="anchored" data-anchor-id="support">📞 Support</h2>
-<p>If you encounter issues:</p>
-<ol type="1">
-<li>Check the <a href="https://github.com/mira-iitjmu/the-registry/actions">GitHub Actions logs</a></li>
-<li>Review the <a href="https://quarto.org/">Quarto documentation</a></li>
-<li>Open an issue in the repository</li>
-<li>Contact the MIRA Research Team</li>
-</ol>
+<section id="best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices">🎯 Best Practices</h2>
+<section id="development" class="level3">
+<h3 class="anchored" data-anchor-id="development">Development:</h3>
+<ul>
+<li>Use <code>quarto preview</code> for local development</li>
+<li>Test changes locally before deploying</li>
+<li>Commit changes to <code>main</code> branch before publishing</li>
+</ul>
+</section>
+<section id="deployment" class="level3">
+<h3 class="anchored" data-anchor-id="deployment">Deployment:</h3>
+<ul>
+<li>Run <code>quarto publish gh-pages</code> after making changes</li>
+<li>Check the live site after deployment</li>
+<li>Monitor for any issues or broken links</li>
+</ul>
+</section>
+<section id="maintenance" class="level3">
+<h3 class="anchored" data-anchor-id="maintenance">Maintenance:</h3>
+<ul>
+<li>Regularly update dependencies</li>
+<li>Keep content fresh and relevant</li>
+<li>Monitor site performance and accessibility</li>
+</ul>
+</section>
+</section>
+<section id="support-resources" class="level2">
+<h2 class="anchored" data-anchor-id="support-resources">📞 Support &amp; Resources</h2>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">Documentation:</h3>
+<ul>
+<li><a href="https://quarto.org/">Quarto Documentation</a></li>
+<li><a href="https://pages.github.com/">GitHub Pages Documentation</a></li>
+<li><a href="https://bootswatch.com/">Bootswatch Themes</a></li>
+</ul>
+</section>
+<section id="getting-help-1" class="level3">
+<h3 class="anchored" data-anchor-id="getting-help-1">Getting Help:</h3>
+<ul>
+<li><strong>Repository Issues</strong>: <a href="https://github.com/mira-iitjmu/the-registry/issues">GitHub Issues</a></li>
+<li><strong>Quarto Community</strong>: <a href="https://github.com/quarto-dev/quarto-cli/discussions">Quarto Discussions</a></li>
+<li><strong>MIRA Research Team</strong>: Contact for project-specific questions</li>
+</ul>
+</section>
 </section>
 <section id="live-site" class="level2">
 <h2 class="anchored" data-anchor-id="live-site">🌐 Live Site</h2>
-<p>Once deployed, your site will be available at: <strong>https://mira-iitjmu.github.io/the-registry/</strong></p>
+<p><strong>🔗 Website URL</strong>: <a href="https://mira-iitjmu.github.io/the-registry/">https://mira-iitjmu.github.io/the-registry/</a></p>
+<p>The website is automatically updated whenever you run <code>quarto publish gh-pages</code>. Changes typically appear within 2-3 minutes of deployment.</p>
 
 
 </section>

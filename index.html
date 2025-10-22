@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Datasets – MIRA Resource Catalog</title>
+<title>Registries – MIRA Resource Catalog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -148,7 +148,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./datasets/index.html" aria-current="page"> 
+    <a class="nav-link" href="./datasets/index.html"> 
 <span class="menu-text">Datasets</span></a>
   </li>  
   <li class="nav-item">
@@ -156,7 +156,7 @@ window.Quarto = {
 <span class="menu-text">Architectures</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -170,7 +170,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Datasets</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Registries</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -190,12 +190,6 @@ window.Quarto = {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./datasets/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">All Datasets</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
@@ -277,7 +271,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Datasets</h1>
+<h1 class="title">Registries</h1>
 </div>
 
 
@@ -300,242 +294,30 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1761110206464" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1761111056127" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./architectures/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Architecture Registry
+</h5>
+<div class="card-text listing-description">
+Overview of model architectures organized by category including language models, multimodal models, and specialized architectures
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1761111045557" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="./datasets/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-All Datasets
+Dataset Registry
 </h5>
 <div class="card-text listing-description">
 Comprehensive collection of datasets for AI/ML research and development
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1761110206464" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/benchmarks/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Benchmark Datasets
-</h5>
-<div class="card-text listing-description">
-Standardized benchmark datasets for evaluating model performance across various NLP tasks
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="language:22 Indic + English,task:Indic language corpus for code-mixed speech and text tasks" data-listing-file-modified-sort="1761110206468" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/indic/bharat-parallel-corpus-collection-bpcc.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bharat Parallel Corpus Collection (BPCC)
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('language:22 Indic + English'); return false;">
-language:22 Indic + English
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('task:Indic language corpus for code-mixed speech and text tasks'); return false;">
-task:Indic language corpus for code-mixed speech and text tasks
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1761110206469" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/indic/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Indic Language Datasets
-</h5>
-<div class="card-text listing-description">
-Datasets for Indian languages including translation, RAG, alignment, and paraphrase tasks
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1761110206470" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/specialized/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Specialized Datasets
-</h5>
-<div class="card-text listing-description">
-Domain-specific and specialized datasets for code generation, scientific literature, and other specialized applications
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1761110206470" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/web/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Web &amp; Crawled Datasets
-</h5>
-<div class="card-text listing-description">
-Large-scale datasets crawled from the web including general text, multilingual content, and domain-specific collections
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="language:11 Indic + English,task:Retrieval-Augmented Generation (RAG) benchmark for Indic languages" data-listing-file-modified-sort="1761110206466" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/indic/ai4bharatindic-rag-suite.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ai4bharat/Indic-Rag-Suite
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('language:11 Indic + English'); return false;">
-language:11 Indic + English
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('task:Retrieval-Augmented Generation (RAG) benchmark for Indic languages'); return false;">
-task:Retrieval-Augmented Generation (RAG) benchmark for Indic languages
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="language:11 Indic languages,task:Paraphrase generation and detection dataset for Indic languages" data-listing-file-modified-sort="1761110206466" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/indic/ai4bharatindicparaphrase.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ai4bharat/IndicParaphrase
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('language:11 Indic languages'); return false;">
-language:11 Indic languages
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('task:Paraphrase generation and detection dataset for Indic languages'); return false;">
-task:Paraphrase generation and detection dataset for Indic languages
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="language:Multiple Indic languages,task:Document alignment and summarization benchmark for Indic texts" data-listing-file-modified-sort="1761110206467" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/indic/ai4bharatpralekha.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ai4bharat/Pralekha
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('language:Multiple Indic languages'); return false;">
-language:Multiple Indic languages
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('task:Document alignment and summarization benchmark for Indic texts'); return false;">
-task:Document alignment and summarization benchmark for Indic texts
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="language:11+ Indic languages,task:Instruction-following / response alignment dataset for Indic languages" data-listing-file-modified-sort="1761110206465" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
-<a href="./datasets/indic/ai4bharatindic-align.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ai4bharat/indic-align
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('language:11+ Indic languages'); return false;">
-language:11+ Indic languages
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('task:Instruction-following / response alignment dataset for Indic languages'); return false;">
-task:Instruction-following / response alignment dataset for Indic languages
-</div>
-</div>
-<div class="card-text listing-description">
-The <strong>ai4bharat/indic-align</strong> dataset represents a comprehensive collection of instruction-following and response alignment data specifically designed for Indic languages. This…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="language:22 Indic languages,task:Large-scale Indic pretraining corpus for LLMs" data-listing-file-modified-sort="1761110206468" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/indic/ai4bharatsangraha.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ai4bharat/sangraha
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('language:22 Indic languages'); return false;">
-language:22 Indic languages
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('task:Large-scale Indic pretraining corpus for LLMs'); return false;">
-task:Large-scale Indic pretraining corpus for LLMs
-</div>
-</div>
-<div class="card-text listing-description">
-
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="language:11 Indic + English,task:Machine translation (Wikipedia articles across Indic languages)" data-listing-file-modified-sort="1761110206468" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./datasets/indic/ai4bharatwiki-translate.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ai4bharat/wiki-translate
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('language:11 Indic + English'); return false;">
-language:11 Indic + English
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('task:Machine translation (Wikipedia articles across Indic languages)'); return false;">
-task:Machine translation (Wikipedia articles across Indic languages)
-</div>
-</div>
-<div class="card-text listing-description">
-
 </div>
 </div>
 </div>
