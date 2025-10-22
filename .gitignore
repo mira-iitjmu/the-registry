@@ -48,6 +48,11 @@ env/
 ehthumbs.db
 Thumbs.db
 
+# Temporary files
+*.tmp
+*.log
+*.cache
+
 # Jupyter
 .ipynb_checkpoints/
 
