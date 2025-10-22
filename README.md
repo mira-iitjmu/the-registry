@@ -57,6 +57,11 @@ A comprehensive catalog of AI/ML datasets and resources curated by the MIRA Rese
    quarto render
    ```
 
+5. **Deploy to GitHub Pages**:
+   ```bash
+   quarto publish gh-pages
+   ```
+
 ## 📖 Usage
 
 ### Adding New Datasets
