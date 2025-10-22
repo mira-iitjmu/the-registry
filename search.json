@@ -1,0 +1,290 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "MIRA Data Catalog Blog",
+    "section": "",
+    "text": "Welcome to the MIRA Data Catalog & Resources blog! Here we share insights, research findings, and best practices related to AI/ML datasets, evaluation methodologies, and ethical considerations in data science.",
+    "crumbs": [
+      "Datasets",
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "blog.html#topics-we-cover",
+    "href": "blog.html#topics-we-cover",
+    "title": "MIRA Data Catalog Blog",
+    "section": "Topics We Cover",
+    "text": "Topics We Cover\n\nDataset Creation: Best practices for data collection and annotation\nEvaluation Methods: Benchmarking and assessment techniques\n\nEthical AI: Responsible data practices and bias mitigation\nMultilingual NLP: Challenges and solutions for diverse languages\nResearch Insights: Latest findings from the AI/ML community",
+    "crumbs": [
+      "Datasets",
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "blog.html#stay-updated",
+    "href": "blog.html#stay-updated",
+    "title": "MIRA Data Catalog Blog",
+    "section": "Stay Updated",
+    "text": "Stay Updated\nFollow our blog for the latest insights on dataset development, evaluation methodologies, and ethical considerations in AI research. We regularly publish articles from our research team and guest contributors.",
+    "crumbs": [
+      "Datasets",
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Datasets",
+    "section": "",
+    "text": "Browse all datasets. Use the sidebar to jump between pages, or filter the grid above.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nAll Datasets\n\n\nComprehensive collection of datasets for AI/ML research and development\n\n\n\n\n\n\n\n\n\n\nBenchmark Datasets\n\n\nStandardized benchmark datasets for evaluating model performance across various NLP tasks\n\n\n\n\n\n\n\n\n\n\nBharat Parallel Corpus Collection (BPCC)\n\n\n\nlanguage:22 Indic + English\n\n\ntask:Indic language corpus for code-mixed speech and text tasks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndic Language Datasets\n\n\nDatasets for Indian languages including translation, RAG, alignment, and paraphrase tasks\n\n\n\n\n\n\n\n\n\n\nSpecialized Datasets\n\n\nDomain-specific and specialized datasets for code generation, scientific literature, and other specialized applications\n\n\n\n\n\n\n\n\n\n\nWeb & Crawled Datasets\n\n\nLarge-scale datasets crawled from the web including general text, multilingual content, and domain-specific collections\n\n\n\n\n\n\n\n\n\n\nai4bharat/Indic-Rag-Suite\n\n\n\nlanguage:11 Indic + English\n\n\ntask:Retrieval-Augmented Generation (RAG) benchmark for Indic languages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/IndicParaphrase\n\n\n\nlanguage:11 Indic languages\n\n\ntask:Paraphrase generation and detection dataset for Indic languages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/Pralekha\n\n\n\nlanguage:Multiple Indic languages\n\n\ntask:Document alignment and summarization benchmark for Indic texts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/indic-align\n\n\n\nlanguage:11+ Indic languages\n\n\ntask:Instruction-following / response alignment dataset for Indic languages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/sangraha\n\n\n\nlanguage:22 Indic languages\n\n\ntask:Large-scale Indic pretraining corpus for LLMs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/wiki-translate\n\n\n\nlanguage:11 Indic + English\n\n\ntask:Machine translation (Wikipedia articles across Indic languages)\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "architectures/multimodal/index.html",
+    "href": "architectures/multimodal/index.html",
+    "title": "Multimodal Models",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Datasets",
+      "Architectures",
+      "Multimodal"
+    ]
+  },
+  {
+    "objectID": "architectures/specialized/index.html",
+    "href": "architectures/specialized/index.html",
+    "title": "Specialized Architectures",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Datasets",
+      "Architectures",
+      "Specialized"
+    ]
+  },
+  {
+    "objectID": "datasets/index.html",
+    "href": "datasets/index.html",
+    "title": "All Datasets",
+    "section": "",
+    "text": "Benchmark Datasets\n\n\nStandardized benchmark datasets for evaluating model performance across various NLP tasks\n\n\n\n\n\n\n\n\n\n\nIndic Language Datasets\n\n\nDatasets for Indian languages including translation, RAG, alignment, and paraphrase tasks\n\n\n\n\n\n\n\n\n\n\nSpecialized Datasets\n\n\nDomain-specific and specialized datasets for code generation, scientific literature, and other specialized applications\n\n\n\n\n\n\n\n\n\n\nWeb & Crawled Datasets\n\n\nLarge-scale datasets crawled from the web including general text, multilingual content, and domain-specific collections\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Datasets",
+      "All Datasets"
+    ]
+  },
+  {
+    "objectID": "datasets/indic/index.html",
+    "href": "datasets/indic/index.html",
+    "title": "Indic Language Datasets",
+    "section": "",
+    "text": "Bharat Parallel Corpus Collection (BPCC)\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/Indic-Rag-Suite\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/IndicParaphrase\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/Pralekha\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/indic-align\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/sangraha\n\n\n\n\n\n\n\n\n\n\n\n\n\nai4bharat/wiki-translate\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Datasets",
+      "Indic Languages"
+    ]
+  },
+  {
+    "objectID": "datasets/indic/ai4bharatindic-align.html",
+    "href": "datasets/indic/ai4bharatindic-align.html",
+    "title": "ai4bharat/indic-align",
+    "section": "",
+    "text": "The ai4bharat/indic-align dataset represents a comprehensive collection of instruction-following and response alignment data specifically designed for Indic languages. This dataset addresses the critical need for high-quality training data that can help language models better understand and respond to instructions across multiple Indian languages.\n\n\nThis dataset encompasses 11+ Indic languages, providing a rich multilingual resource for researchers and practitioners working on instruction-following tasks in the Indian linguistic context. The primary focus is on creating well-aligned instruction-response pairs that can improve the performance of language models when handling queries and commands in various Indic languages.\n\n\n\n\nMultilingual Coverage: Supports 11+ Indic languages, ensuring broad linguistic representation\nInstruction-Following Focus: Specifically designed for training models to follow instructions accurately\nResponse Alignment: Contains carefully curated instruction-response pairs for optimal model training\nResearch-Backed: Developed by AI4Bharat with accompanying research paper\n\n\n\n\nThe dataset is readily available through Hugging Face, making it easily accessible to the research community. For detailed technical information and methodology, refer to the accompanying research paper: AI4Bharat Indic Align.\nThis dataset is particularly valuable for:\n\nTraining instruction-following models for Indic languages\nImproving response quality and alignment in multilingual settings\nAdvancing research in Indian language processing\nBuilding more inclusive and linguistically diverse AI systems\n\n\n\n\nExplore the dataset interactively using the official Hugging Face dataset viewer:\n🔗 View Dataset on Hugging Face\nQuick Preview: The dataset contains instruction-response pairs in a conversational format. Each record includes an id, interactions (list of instruction-response pairs), and num_turns (conversation length).\nDataset Structure: Each record contains:\n\nid: Unique identifier for the conversation\ninteractions: List of instruction-response pairs\nnum_turns: Number of conversation turns\n\nAvailable Configurations: The dataset includes multiple configurations:\n\nAnudesh: Instruction-following conversations\nDolly_T: Translated Dolly dataset\nOpenAssistant_T: Translated OpenAssistant conversations\nWikiHow: Translated WikiHow articles\nIndoWordNet: WordNet translations\nWiki_Conv: Wikipedia conversation data\nWiki_Chat: Wikipedia chat data\nHHRLHF_T: Human feedback data\nToxic_Matrix: Toxic content alignment data\n\nFor interactive exploration, visit the full dataset page on Hugging Face."
+  },
+  {
+    "objectID": "datasets/indic/ai4bharatindic-align.html#overview",
+    "href": "datasets/indic/ai4bharatindic-align.html#overview",
+    "title": "ai4bharat/indic-align",
+    "section": "",
+    "text": "The ai4bharat/indic-align dataset represents a comprehensive collection of instruction-following and response alignment data specifically designed for Indic languages. This dataset addresses the critical need for high-quality training data that can help language models better understand and respond to instructions across multiple Indian languages.\n\n\nThis dataset encompasses 11+ Indic languages, providing a rich multilingual resource for researchers and practitioners working on instruction-following tasks in the Indian linguistic context. The primary focus is on creating well-aligned instruction-response pairs that can improve the performance of language models when handling queries and commands in various Indic languages.\n\n\n\n\nMultilingual Coverage: Supports 11+ Indic languages, ensuring broad linguistic representation\nInstruction-Following Focus: Specifically designed for training models to follow instructions accurately\nResponse Alignment: Contains carefully curated instruction-response pairs for optimal model training\nResearch-Backed: Developed by AI4Bharat with accompanying research paper\n\n\n\n\nThe dataset is readily available through Hugging Face, making it easily accessible to the research community. For detailed technical information and methodology, refer to the accompanying research paper: AI4Bharat Indic Align.\nThis dataset is particularly valuable for:\n\nTraining instruction-following models for Indic languages\nImproving response quality and alignment in multilingual settings\nAdvancing research in Indian language processing\nBuilding more inclusive and linguistically diverse AI systems\n\n\n\n\nExplore the dataset interactively using the official Hugging Face dataset viewer:\n🔗 View Dataset on Hugging Face\nQuick Preview: The dataset contains instruction-response pairs in a conversational format. Each record includes an id, interactions (list of instruction-response pairs), and num_turns (conversation length).\nDataset Structure: Each record contains:\n\nid: Unique identifier for the conversation\ninteractions: List of instruction-response pairs\nnum_turns: Number of conversation turns\n\nAvailable Configurations: The dataset includes multiple configurations:\n\nAnudesh: Instruction-following conversations\nDolly_T: Translated Dolly dataset\nOpenAssistant_T: Translated OpenAssistant conversations\nWikiHow: Translated WikiHow articles\nIndoWordNet: WordNet translations\nWiki_Conv: Wikipedia conversation data\nWiki_Chat: Wikipedia chat data\nHHRLHF_T: Human feedback data\nToxic_Matrix: Toxic content alignment data\n\nFor interactive exploration, visit the full dataset page on Hugging Face."
+  },
+  {
+    "objectID": "posts/ipynb-direct-test/index.html",
+    "href": "posts/ipynb-direct-test/index.html",
+    "title": "Direct Jupyter Notebook Blog Post",
+    "section": "",
+    "text": "This blog post tests whether Quarto can use .ipynb files directly as blog posts without converting them to .qmd files.\n\n\nWe’re testing the direct integration of Jupyter notebooks into the Quarto blog system. This approach allows us to use notebooks as-is without any conversion.\n\n\n        \n        \n        \n\n\nLibraries imported successfully!\nNumPy version: 2.3.4\nPandas version: 2.3.3\nMatplotlib version: 3.10.7\nPlotly version: 6.3.1\nPlotly renderer: plotly_mimetype+notebook_connected\n\n\n\n\n\nLet’s create some visualizations to test the notebook functionality:\n\n\n\n\n\n\n\n\n\n\n\n\nNow let’s test interactive plots with Plotly:\n\n\nCreating static plots with matplotlib...\n\n\n\n\n\n\n\n\n\n\nTrying Plotly with different renderers...\nCurrent renderer: browser\nPlotly plot displayed successfully!\n\n\n\n\n\nLet’s perform some data analysis to test the full functionality:\n\n\nDataset Overview:\nShape: (1000, 4)\nColumns: ['feature1', 'feature2', 'feature3', 'category']\n\nBasic Statistics:\n          feature1     feature2     feature3\ncount  1000.000000  1000.000000  1000.000000\nmean     99.406538    50.083892    25.051765\nstd      15.019325     9.584889     4.909747\nmin      51.534175    11.986218     9.665062\n25%      89.731651    43.610755    21.780566\n50%      99.382217    50.484554    25.221117\n75%     110.032986    56.538834    28.235850\nmax     153.573688    78.507077    38.959856\n\nCorrelation Matrix:\n          feature1  feature2  feature3\nfeature1  1.000000 -0.031283 -0.032409\nfeature2 -0.031283  1.000000 -0.013392\nfeature3 -0.032409 -0.013392  1.000000\n\nGroup Statistics by Category:\n           feature1              feature2             feature3          \n               mean        std       mean       std       mean       std\ncategory                                                                \nType A    99.841366  14.007879  49.861579  9.696586  25.474744  5.014962\nType B    98.676123  15.753299  49.897279  9.559018  24.580827  4.839809\nType C    99.731265  15.167006  50.460367  9.526801  25.135579  4.858440\n\n\n\n\n\nThis notebook demonstrates that Quarto can handle .ipynb files directly as blog posts. The key features tested include:\n\n✅ YAML metadata in the first cell\n✅ Mixed content (markdown and code cells)\n✅ Python code execution with multiple libraries\n✅ Static plots with matplotlib\n✅ Interactive plots with Plotly\n✅ Data analysis with pandas and numpy\n✅ Proper formatting and output display\n\nThis approach allows data scientists to use their existing Jupyter notebooks directly in Quarto blogs without any conversion!\n\n\n=== Jupyter Notebook Test Results ===\n✅ NumPy: 2.3.4\n✅ Pandas: 2.3.3\n✅ Matplotlib: 3.10.7\n✅ Plotly: 6.3.1\n\n\n\n\n\n\n\n\n\n✅ Matplotlib plots working!\n✅ Notebook execution successful!"
+  },
+  {
+    "objectID": "posts/ipynb-direct-test/index.html#introduction",
+    "href": "posts/ipynb-direct-test/index.html#introduction",
+    "title": "Direct Jupyter Notebook Blog Post",
+    "section": "",
+    "text": "We’re testing the direct integration of Jupyter notebooks into the Quarto blog system. This approach allows us to use notebooks as-is without any conversion.\n\n\n        \n        \n        \n\n\nLibraries imported successfully!\nNumPy version: 2.3.4\nPandas version: 2.3.3\nMatplotlib version: 3.10.7\nPlotly version: 6.3.1\nPlotly renderer: plotly_mimetype+notebook_connected"
+  },
+  {
+    "objectID": "posts/ipynb-direct-test/index.html#data-visualization-test",
+    "href": "posts/ipynb-direct-test/index.html#data-visualization-test",
+    "title": "Direct Jupyter Notebook Blog Post",
+    "section": "",
+    "text": "Let’s create some visualizations to test the notebook functionality:"
+  },
+  {
+    "objectID": "posts/ipynb-direct-test/index.html#interactive-plotly-visualization",
+    "href": "posts/ipynb-direct-test/index.html#interactive-plotly-visualization",
+    "title": "Direct Jupyter Notebook Blog Post",
+    "section": "",
+    "text": "Now let’s test interactive plots with Plotly:\n\n\nCreating static plots with matplotlib...\n\n\n\n\n\n\n\n\n\n\nTrying Plotly with different renderers...\nCurrent renderer: browser\nPlotly plot displayed successfully!"
+  },
+  {
+    "objectID": "posts/ipynb-direct-test/index.html#data-analysis",
+    "href": "posts/ipynb-direct-test/index.html#data-analysis",
+    "title": "Direct Jupyter Notebook Blog Post",
+    "section": "",
+    "text": "Let’s perform some data analysis to test the full functionality:\n\n\nDataset Overview:\nShape: (1000, 4)\nColumns: ['feature1', 'feature2', 'feature3', 'category']\n\nBasic Statistics:\n          feature1     feature2     feature3\ncount  1000.000000  1000.000000  1000.000000\nmean     99.406538    50.083892    25.051765\nstd      15.019325     9.584889     4.909747\nmin      51.534175    11.986218     9.665062\n25%      89.731651    43.610755    21.780566\n50%      99.382217    50.484554    25.221117\n75%     110.032986    56.538834    28.235850\nmax     153.573688    78.507077    38.959856\n\nCorrelation Matrix:\n          feature1  feature2  feature3\nfeature1  1.000000 -0.031283 -0.032409\nfeature2 -0.031283  1.000000 -0.013392\nfeature3 -0.032409 -0.013392  1.000000\n\nGroup Statistics by Category:\n           feature1              feature2             feature3          \n               mean        std       mean       std       mean       std\ncategory                                                                \nType A    99.841366  14.007879  49.861579  9.696586  25.474744  5.014962\nType B    98.676123  15.753299  49.897279  9.559018  24.580827  4.839809\nType C    99.731265  15.167006  50.460367  9.526801  25.135579  4.858440"
+  },
+  {
+    "objectID": "posts/ipynb-direct-test/index.html#conclusion",
+    "href": "posts/ipynb-direct-test/index.html#conclusion",
+    "title": "Direct Jupyter Notebook Blog Post",
+    "section": "",
+    "text": "This notebook demonstrates that Quarto can handle .ipynb files directly as blog posts. The key features tested include:\n\n✅ YAML metadata in the first cell\n✅ Mixed content (markdown and code cells)\n✅ Python code execution with multiple libraries\n✅ Static plots with matplotlib\n✅ Interactive plots with Plotly\n✅ Data analysis with pandas and numpy\n✅ Proper formatting and output display\n\nThis approach allows data scientists to use their existing Jupyter notebooks directly in Quarto blogs without any conversion!\n\n\n=== Jupyter Notebook Test Results ===\n✅ NumPy: 2.3.4\n✅ Pandas: 2.3.3\n✅ Matplotlib: 3.10.7\n✅ Plotly: 6.3.1\n\n\n\n\n\n\n\n\n\n✅ Matplotlib plots working!\n✅ Notebook execution successful!"
+  },
+  {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contributing to MIRA Data Catalog",
+    "section": "",
+    "text": "We welcome contributions to the MIRA Data Catalog! This guide will help you understand how to contribute datasets, architectures, and other content to our growing collection.\n\n\n\n\nTo contribute a new dataset:\n\nChoose the appropriate category for your dataset:\n\nIndic Languages (datasets/indic/) - For Indian language datasets\nWeb & Crawled (datasets/web/) - For web-scraped datasets\nBenchmarks (datasets/benchmarks/) - For evaluation datasets\nSpecialized (datasets/specialized/) - For domain-specific datasets\n\nSelect the subcategory within your chosen category:\n\nFor Indic: translation/, rag/, alignment/, or paraphrase/\nFor Web: general/, multilingual/, or domain-specific/\nFor Benchmarks: language-understanding/, reasoning/, or multilingual/\nFor Specialized: code/, scientific/, or domain-specific/\n\nCreate a .qmd file in the appropriate subcategory directory with the following structure:\n\n---\ntitle: \"Your Dataset Name\"\ndescription: \"Brief description of the dataset\"\ndate: \"YYYY-MM-DD\"\nauthor: \"Your Name\"\ncategories: [\"Category1\", \"Category2\"]\n---\n\n# Your Dataset Name\n\n## Overview\nDetailed description of your dataset.\n\n## Key Features\n- Feature 1\n- Feature 2\n- Feature 3\n\n## Usage\nHow to use this dataset.\n\n## Citation\nIf applicable, include citation information.\n\n\n\nTo contribute a new architecture:\n\nChoose the appropriate category:\n\nLanguage Models (architectures/language-models/) - For language model architectures\nMultimodal (architectures/multimodal/) - For multimodal architectures\nSpecialized (architectures/specialized/) - For specialized architectures\n\nSelect the subcategory:\n\nFor Language Models: encoder-only/, decoder-only/, or encoder-decoder/\nFor Multimodal: vision-language/, audio-visual/, or cross-modal/\nFor Specialized: rag/, code-generation/, or domain-specific/\n\nCreate a .qmd file with similar structure to datasets.\n\n\n\n\nTo contribute a blog post:\n\nCreate a new directory in posts/ with a descriptive name\nAdd an index.qmd file with your blog post content\nInclude proper YAML frontmatter:\n\n---\ntitle: \"Your Blog Post Title\"\ndescription: \"Brief description of the blog post\"\ndate: \"YYYY-MM-DD\"\nauthor: \"Your Name\"\ncategories: [\"Research\", \"AI/ML\"]\n---\n\n\n\n\n\n\nWhen contributing datasets, please include:\n\nClear description of what the dataset contains\nSize and scale information\nLanguage(s) covered\nTask(s) the dataset is designed for\nQuality metrics if available\nUsage examples or code snippets\nCitation information if applicable\nLicense information\n\n\n\n\nWhen contributing architectures, please include:\n\nArchitecture overview and key components\nModel size and parameters\nTraining details if applicable\nPerformance metrics if available\nUse cases and applications\nImplementation details\nCitation information\n\n\n\n\nFor blog posts, please ensure:\n\nClear, engaging writing\nTechnical accuracy\nProper citations and references\nCode examples where relevant\nVisual elements (plots, diagrams) when helpful\nConsistent formatting\n\n\n\n\n\n\n\n\nDataset files: Use descriptive names like dataset-name.qmd\nArchitecture files: Use descriptive names like architecture-name.qmd\nBlog posts: Use descriptive directory names like post-title/\n\n\n\n\ndatasets/\n├── indic/\n│   ├── translation/\n│   │   └── your-dataset.qmd\n│   └── rag/\n│       └── your-rag-dataset.qmd\n└── web/\n    └── general/\n        └── your-web-dataset.qmd\n\narchitectures/\n├── language-models/\n│   └── encoder-only/\n│       └── your-architecture.qmd\n└── multimodal/\n    └── vision-language/\n        └── your-vision-model.qmd\n\nposts/\n└── your-blog-post/\n    └── index.qmd\n\n\n\n\n\nSubmit your contribution by creating the appropriate files\nOur team will review the content for:\n\nTechnical accuracy\nCompleteness of documentation\nAdherence to guidelines\nQuality and usefulness\n\nFeedback will be provided if revisions are needed\nApproved contributions will be integrated into the catalog\n\n\n\n\nIf you have questions about contributing, please:\n\nCheck existing content for examples\nReview the file structure to understand organization\nContact the maintainers if you need clarification\n\n\n\n\nWe appreciate your contributions to the MIRA Data Catalog. Your efforts help build a comprehensive resource for the AI/ML community!"
+  },
+  {
+    "objectID": "contributing.html#how-to-contribute",
+    "href": "contributing.html#how-to-contribute",
+    "title": "Contributing to MIRA Data Catalog",
+    "section": "",
+    "text": "To contribute a new dataset:\n\nChoose the appropriate category for your dataset:\n\nIndic Languages (datasets/indic/) - For Indian language datasets\nWeb & Crawled (datasets/web/) - For web-scraped datasets\nBenchmarks (datasets/benchmarks/) - For evaluation datasets\nSpecialized (datasets/specialized/) - For domain-specific datasets\n\nSelect the subcategory within your chosen category:\n\nFor Indic: translation/, rag/, alignment/, or paraphrase/\nFor Web: general/, multilingual/, or domain-specific/\nFor Benchmarks: language-understanding/, reasoning/, or multilingual/\nFor Specialized: code/, scientific/, or domain-specific/\n\nCreate a .qmd file in the appropriate subcategory directory with the following structure:\n\n---\ntitle: \"Your Dataset Name\"\ndescription: \"Brief description of the dataset\"\ndate: \"YYYY-MM-DD\"\nauthor: \"Your Name\"\ncategories: [\"Category1\", \"Category2\"]\n---\n\n# Your Dataset Name\n\n## Overview\nDetailed description of your dataset.\n\n## Key Features\n- Feature 1\n- Feature 2\n- Feature 3\n\n## Usage\nHow to use this dataset.\n\n## Citation\nIf applicable, include citation information.\n\n\n\nTo contribute a new architecture:\n\nChoose the appropriate category:\n\nLanguage Models (architectures/language-models/) - For language model architectures\nMultimodal (architectures/multimodal/) - For multimodal architectures\nSpecialized (architectures/specialized/) - For specialized architectures\n\nSelect the subcategory:\n\nFor Language Models: encoder-only/, decoder-only/, or encoder-decoder/\nFor Multimodal: vision-language/, audio-visual/, or cross-modal/\nFor Specialized: rag/, code-generation/, or domain-specific/\n\nCreate a .qmd file with similar structure to datasets.\n\n\n\n\nTo contribute a blog post:\n\nCreate a new directory in posts/ with a descriptive name\nAdd an index.qmd file with your blog post content\nInclude proper YAML frontmatter:\n\n---\ntitle: \"Your Blog Post Title\"\ndescription: \"Brief description of the blog post\"\ndate: \"YYYY-MM-DD\"\nauthor: \"Your Name\"\ncategories: [\"Research\", \"AI/ML\"]\n---"
+  },
+  {
+    "objectID": "contributing.html#content-guidelines",
+    "href": "contributing.html#content-guidelines",
+    "title": "Contributing to MIRA Data Catalog",
+    "section": "",
+    "text": "When contributing datasets, please include:\n\nClear description of what the dataset contains\nSize and scale information\nLanguage(s) covered\nTask(s) the dataset is designed for\nQuality metrics if available\nUsage examples or code snippets\nCitation information if applicable\nLicense information\n\n\n\n\nWhen contributing architectures, please include:\n\nArchitecture overview and key components\nModel size and parameters\nTraining details if applicable\nPerformance metrics if available\nUse cases and applications\nImplementation details\nCitation information\n\n\n\n\nFor blog posts, please ensure:\n\nClear, engaging writing\nTechnical accuracy\nProper citations and references\nCode examples where relevant\nVisual elements (plots, diagrams) when helpful\nConsistent formatting"
+  },
+  {
+    "objectID": "contributing.html#file-organization",
+    "href": "contributing.html#file-organization",
+    "title": "Contributing to MIRA Data Catalog",
+    "section": "",
+    "text": "Dataset files: Use descriptive names like dataset-name.qmd\nArchitecture files: Use descriptive names like architecture-name.qmd\nBlog posts: Use descriptive directory names like post-title/\n\n\n\n\ndatasets/\n├── indic/\n│   ├── translation/\n│   │   └── your-dataset.qmd\n│   └── rag/\n│       └── your-rag-dataset.qmd\n└── web/\n    └── general/\n        └── your-web-dataset.qmd\n\narchitectures/\n├── language-models/\n│   └── encoder-only/\n│       └── your-architecture.qmd\n└── multimodal/\n    └── vision-language/\n        └── your-vision-model.qmd\n\nposts/\n└── your-blog-post/\n    └── index.qmd"
+  },
+  {
+    "objectID": "contributing.html#review-process",
+    "href": "contributing.html#review-process",
+    "title": "Contributing to MIRA Data Catalog",
+    "section": "",
+    "text": "Submit your contribution by creating the appropriate files\nOur team will review the content for:\n\nTechnical accuracy\nCompleteness of documentation\nAdherence to guidelines\nQuality and usefulness\n\nFeedback will be provided if revisions are needed\nApproved contributions will be integrated into the catalog"
+  },
+  {
+    "objectID": "contributing.html#questions",
+    "href": "contributing.html#questions",
+    "title": "Contributing to MIRA Data Catalog",
+    "section": "",
+    "text": "If you have questions about contributing, please:\n\nCheck existing content for examples\nReview the file structure to understand organization\nContact the maintainers if you need clarification"
+  },
+  {
+    "objectID": "contributing.html#thank-you",
+    "href": "contributing.html#thank-you",
+    "title": "Contributing to MIRA Data Catalog",
+    "section": "",
+    "text": "We appreciate your contributions to the MIRA Data Catalog. Your efforts help build a comprehensive resource for the AI/ML community!"
+  },
+  {
+    "objectID": "datasets/specialized/index.html",
+    "href": "datasets/specialized/index.html",
+    "title": "Specialized Datasets",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Datasets",
+      "Specialized"
+    ]
+  },
+  {
+    "objectID": "datasets/benchmarks/index.html",
+    "href": "datasets/benchmarks/index.html",
+    "title": "Benchmark Datasets",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Datasets",
+      "Benchmarks"
+    ]
+  },
+  {
+    "objectID": "architectures/index.html",
+    "href": "architectures/index.html",
+    "title": "Architecture Categories",
+    "section": "",
+    "text": "Language Models\n\n\nArchitectures for language modeling including encoder-only, decoder-only, and encoder-decoder models\n\n\n\n\n\n\n\n\n\n\nMultimodal Models\n\n\nArchitectures for processing multiple modalities including vision-language, audio-visual, and cross-modal models\n\n\n\n\n\n\n\n\n\n\nSpecialized Architectures\n\n\nSpecialized model architectures for specific domains including RAG, code generation, and domain-specific applications\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "architectures/language-models/index.html",
+    "href": "architectures/language-models/index.html",
+    "title": "Language Models",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Datasets",
+      "Architectures",
+      "Language Models"
+    ]
+  },
+  {
+    "objectID": "DEPLOYMENT.html",
+    "href": "DEPLOYMENT.html",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "This guide explains how to deploy the MIRA Resource Catalog website to GitHub Pages.\n\n\nThe website is automatically deployed to GitHub Pages whenever changes are pushed to the main branch.\n\n\n\nGitHub Actions: A workflow (.github/workflows/publish.yml) automatically builds and deploys the site\nQuarto Rendering: The workflow uses Quarto to render the website\nGitHub Pages: The rendered site is automatically published to GitHub Pages\n\n\n\n\n\nPush changes to the main branch:\ngit add .\ngit commit -m \"Your commit message\"\ngit push origin main\nMonitor deployment:\n\nGo to the “Actions” tab in your GitHub repository\nWatch the “Publish Quarto Website” workflow run\nThe site will be available at https://mira-iitjmu.github.io/the-registry/\n\n\n\n\n\n\nIf you need to deploy manually:\n\n\n# Build the website\n./scripts/build.sh\n\n# Or manually:\nquarto render\n\n\n\n\nGo to repository Settings → Pages\nUnder Source, select GitHub Actions\nThe workflow will automatically deploy when triggered\n\n\n\n\n\n\n\n\nBuild Failures:\n\nCheck the Actions tab for error logs\nEnsure all required files are committed\nVerify Quarto syntax in .qmd files\n\nSite Not Updating:\n\nCheck if GitHub Actions workflow completed successfully\nVerify GitHub Pages settings are correct\nWait a few minutes for deployment to complete\n\nMissing Content:\n\nEnsure all files are committed to the repository\nCheck that paths in navigation are correct\nVerify file permissions\n\n\n\n\n\n# Test local build\nquarto render --debug\n\n# Preview locally\nquarto preview\n\n# Check configuration\nquarto check\n\n\n\n\n\n\n\nRepository: mira-iitjmu/the-registry\nBranch: main\nSource: GitHub Actions\nCustom Domain: (Optional)\n\n\n\n\nThe site is configured in _quarto.yml: - Output Directory: _site - Theme: Cosmo (Bootswatch) - GitHub Integration: Enabled\n\n\n\n\nThe deployment workflow (.github/workflows/publish.yml) does the following:\n\nCheckout: Gets the latest code\nSetup Quarto: Installs Quarto CLI\nRender: Builds the website\nDeploy: Publishes to GitHub Pages\n\n\n\n\nIf you encounter issues:\n\nCheck the GitHub Actions logs\nReview the Quarto documentation\nOpen an issue in the repository\nContact the MIRA Research Team\n\n\n\n\nOnce deployed, your site will be available at: https://mira-iitjmu.github.io/the-registry/"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#automatic-deployment-recommended",
+    "href": "DEPLOYMENT.html#automatic-deployment-recommended",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "The website is automatically deployed to GitHub Pages whenever changes are pushed to the main branch.\n\n\n\nGitHub Actions: A workflow (.github/workflows/publish.yml) automatically builds and deploys the site\nQuarto Rendering: The workflow uses Quarto to render the website\nGitHub Pages: The rendered site is automatically published to GitHub Pages\n\n\n\n\n\nPush changes to the main branch:\ngit add .\ngit commit -m \"Your commit message\"\ngit push origin main\nMonitor deployment:\n\nGo to the “Actions” tab in your GitHub repository\nWatch the “Publish Quarto Website” workflow run\nThe site will be available at https://mira-iitjmu.github.io/the-registry/"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#manual-deployment",
+    "href": "DEPLOYMENT.html#manual-deployment",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "If you need to deploy manually:\n\n\n# Build the website\n./scripts/build.sh\n\n# Or manually:\nquarto render\n\n\n\n\nGo to repository Settings → Pages\nUnder Source, select GitHub Actions\nThe workflow will automatically deploy when triggered"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#troubleshooting",
+    "href": "DEPLOYMENT.html#troubleshooting",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "Build Failures:\n\nCheck the Actions tab for error logs\nEnsure all required files are committed\nVerify Quarto syntax in .qmd files\n\nSite Not Updating:\n\nCheck if GitHub Actions workflow completed successfully\nVerify GitHub Pages settings are correct\nWait a few minutes for deployment to complete\n\nMissing Content:\n\nEnsure all files are committed to the repository\nCheck that paths in navigation are correct\nVerify file permissions\n\n\n\n\n\n# Test local build\nquarto render --debug\n\n# Preview locally\nquarto preview\n\n# Check configuration\nquarto check"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#configuration",
+    "href": "DEPLOYMENT.html#configuration",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "Repository: mira-iitjmu/the-registry\nBranch: main\nSource: GitHub Actions\nCustom Domain: (Optional)\n\n\n\n\nThe site is configured in _quarto.yml: - Output Directory: _site - Theme: Cosmo (Bootswatch) - GitHub Integration: Enabled"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#workflow-details",
+    "href": "DEPLOYMENT.html#workflow-details",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "The deployment workflow (.github/workflows/publish.yml) does the following:\n\nCheckout: Gets the latest code\nSetup Quarto: Installs Quarto CLI\nRender: Builds the website\nDeploy: Publishes to GitHub Pages"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#support",
+    "href": "DEPLOYMENT.html#support",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "If you encounter issues:\n\nCheck the GitHub Actions logs\nReview the Quarto documentation\nOpen an issue in the repository\nContact the MIRA Research Team"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#live-site",
+    "href": "DEPLOYMENT.html#live-site",
+    "title": "Deployment Guide",
+    "section": "",
+    "text": "Once deployed, your site will be available at: https://mira-iitjmu.github.io/the-registry/"
+  }
+]

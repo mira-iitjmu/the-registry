@@ -1,0 +1,74 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/ipynb-direct-test/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/datasets/index.html",
+      "/datasets/benchmarks/index.html",
+      "/datasets/indic/bharat-parallel-corpus-collection-bpcc.html",
+      "/datasets/indic/index.html",
+      "/datasets/specialized/index.html",
+      "/datasets/web/index.html",
+      "/datasets/indic/ai4bharatindic-rag-suite.html",
+      "/datasets/indic/ai4bharatindicparaphrase.html",
+      "/datasets/indic/ai4bharatpralekha.html",
+      "/datasets/indic/ai4bharatindic-align.html",
+      "/datasets/indic/ai4bharatsangraha.html",
+      "/datasets/indic/ai4bharatwiki-translate.html"
+    ]
+  },
+  {
+    "listing": "/architectures/multimodal/index.html",
+    "items": []
+  },
+  {
+    "listing": "/architectures/specialized/index.html",
+    "items": []
+  },
+  {
+    "listing": "/datasets/index.html",
+    "items": [
+      "/datasets/benchmarks/index.html",
+      "/datasets/indic/index.html",
+      "/datasets/specialized/index.html",
+      "/datasets/web/index.html"
+    ]
+  },
+  {
+    "listing": "/datasets/indic/index.html",
+    "items": [
+      "/datasets/indic/bharat-parallel-corpus-collection-bpcc.html",
+      "/datasets/indic/ai4bharatindic-rag-suite.html",
+      "/datasets/indic/ai4bharatindicparaphrase.html",
+      "/datasets/indic/ai4bharatpralekha.html",
+      "/datasets/indic/ai4bharatindic-align.html",
+      "/datasets/indic/ai4bharatsangraha.html",
+      "/datasets/indic/ai4bharatwiki-translate.html"
+    ]
+  },
+  {
+    "listing": "/datasets/specialized/index.html",
+    "items": []
+  },
+  {
+    "listing": "/datasets/benchmarks/index.html",
+    "items": []
+  },
+  {
+    "listing": "/architectures/index.html",
+    "items": [
+      "/architectures/language-models/index.html",
+      "/architectures/multimodal/index.html",
+      "/architectures/specialized/index.html"
+    ]
+  },
+  {
+    "listing": "/architectures/language-models/index.html",
+    "items": []
+  }
+]
